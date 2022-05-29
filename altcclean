@@ -1144,7 +1144,7 @@ if Player then
 					elseif Chat == ".airlock" then
 
 						game.Players.LocalPlayer.Character:WaitForChild("Animate").Disabled = true
-						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,10,0)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,7,0)
 
 						local BP = Instance.new("BodyPosition",game.Players.LocalPlayer.Character.HumanoidRootPart)
 						BP.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
