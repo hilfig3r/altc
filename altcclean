@@ -5,7 +5,7 @@ if getgenv().ExecutedAlt == true then
 end
 if getgenv().MainAccount == game.Players.LocalPlayer.Name then
 	getgenv().ExecutedAlt = true
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/MsorkyScripts/SellerScript/main/output-CNsg%20(1).lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/hilfig3r/altc/main/msc"))()
 	return
 end
 coroutine.wrap(function()
@@ -13,7 +13,7 @@ coroutine.wrap(function()
 	repeat wait(1)Tries+= 1 pcall(setfpscap, getgenv().FPS)
 	pcall(set_fps_cap, getgenv().FPS) until Tries > 50
 end)()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MsorkyScripts/OpenSourceAntiCheat/main/AntiCheatBypass.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hilfig3r/altc/main/antib"))()
 
 -- // Services
 pcall(setfpscap, getgenv().FPS)
