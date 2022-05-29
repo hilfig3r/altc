@@ -510,12 +510,12 @@ if Player then
 			if PointInTable == i then
 				local XCoordinate = 0
 				local ZCoordinate = 0
-				ZCoordinate = i*4
+				ZCoordinate = i*3
 
 				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-3)
 
 
-				--if PointInTable == 1 then
+				--if PointInTable == 2 then
 				--	Player.Character.HumanoidRootPart.CFrame = TargCF*CFrame.new(0,0,0)
 
 				--else
@@ -534,12 +534,12 @@ if Player then
 
 		local i = 0
 		for index = 11,20 do
-			i += 1
+			i += 2
 
 			if PointInTable == index then
 				local XCoordinate = 8
 				local ZCoordinate = 0
-				ZCoordinate = i*4
+				ZCoordinate = i*3
 
 				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-3)
 
