@@ -512,7 +512,7 @@ if Player then
 				local ZCoordinate = 0
 				ZCoordinate = i*3
 
-				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-3)
+				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-4)
 
 
 				--if PointInTable == 2 then
@@ -541,7 +541,7 @@ if Player then
 				local ZCoordinate = 0
 				ZCoordinate = i*3
 
-				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-3)
+				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-4)
 
 
 				local Clone = Player.Character
@@ -562,7 +562,7 @@ if Player then
 				local ZCoordinate = 0
 				ZCoordinate = i*3
 
-				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-3)
+				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-4)
 
 
 				--if PointInTable == 1 then
@@ -590,7 +590,7 @@ if Player then
 				local ZCoordinate = 0
 				ZCoordinate = i*3
 
-				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-3)
+				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-4)
 
 
 				--if PointInTable == 1 then
