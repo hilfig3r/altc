@@ -533,7 +533,7 @@ if Player then
 
 
 		local i = 0
-		for index = 11,20 do
+		for index = 11,5 do
 			i += 2
 
 			if PointInTable == index then
@@ -555,7 +555,7 @@ if Player then
 
 
 		local i = 0
-		for index = 21,30 do
+		for index = 21,5 do
 			i += 1
 			if PointInTable == index then
 				local XCoordinate = 16
@@ -583,7 +583,7 @@ if Player then
 
 
 		local i = 0
-		for index = 31,40 do
+		for index = 31,5 do
 			i += 1
 			if PointInTable == index then
 				local XCoordinate = 24
