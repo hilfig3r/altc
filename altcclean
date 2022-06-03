@@ -512,14 +512,14 @@ if Player then
 				local ZCoordinate = 0
 				ZCoordinate = i*3
 
-				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-4)
+				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-3)
 
 
-				--if PointInTable == 2 then
+				--if PointInTable == 1 then
 				--	Player.Character.HumanoidRootPart.CFrame = TargCF*CFrame.new(0,0,0)
 
 				--else
-				--	Player.Character.HumanoidRootPart.CFrame = TargCF*CFrame.new(XCoordinate,0,-ZCoordinate*2)
+				--	Player.Character.HumanoidRootPart.CFrame = TargCF*CFrame.new(XCoordinate,0,-ZCoordinate*1)
 
 				--end
 
@@ -534,14 +534,14 @@ if Player then
 
 		local i = 0
 		for index = 11,20 do
-			i += 2
+			i += 1
 
 			if PointInTable == index then
 				local XCoordinate = 8
 				local ZCoordinate = 0
 				ZCoordinate = i*3
 
-				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-4)
+				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-3)
 
 
 				local Clone = Player.Character
@@ -562,7 +562,7 @@ if Player then
 				local ZCoordinate = 0
 				ZCoordinate = i*3
 
-				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-4)
+				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-3)
 
 
 				--if PointInTable == 1 then
@@ -590,7 +590,7 @@ if Player then
 				local ZCoordinate = 0
 				ZCoordinate = i*3
 
-				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-4)
+				local TargCF = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-3)
 
 
 				--if PointInTable == 1 then
@@ -608,8 +608,6 @@ if Player then
 			end
 
 		end
-
-
 
 	end
 	local function SetUpAdmin() 
@@ -1018,7 +1016,7 @@ if Player then
 					elseif Chat == ".drop" then
 						CustomDrop = false
 						Drop()
-					elseif Chat == ".circle host" then
+					elseif Chat == ".c host" then
 						Circle()
 
 						print("Entered the command")
@@ -1169,11 +1167,11 @@ if Player then
 					elseif Chat:match(".fps "..game.Players.LocalPlayer.Name) then
 						
 			
-					elseif Chat:match(".crash swag ") then
+					elseif Chat:match(".crash ") then
 
 
 						local str = Chat
-						local newStr, replaced = string.gsub(str, ".crash swag ", "")
+						local newStr, replaced = string.gsub(str, ".crash ", "")
 
 						if game.Players.LocalPlayer.Name:lower():sub(1,#newStr) == newStr:lower() then
 
