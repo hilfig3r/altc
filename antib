@@ -2,14 +2,6 @@
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
--- // Vars
-local tablefind = table.find
-local MainEvent = ReplicatedStorage.MainEvent
-local SpoofTable = {
-	WalkSpeed = 16,
-	JumpPower = 50
-}
-
 -- // Configuration
 local Flags = {
 	"CHECKER_1",
